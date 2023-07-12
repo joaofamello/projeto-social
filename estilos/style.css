@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    height: 100vh;
+    height: 96vh;
     position: relative;
     
 }
@@ -58,4 +58,25 @@ section#redes-sociais img:hover {
     transform: translate(-10px, -10px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.651);
     transition: transform .3s, border .5s;
+}
+
+section#foot {
+    background-color: rgba(0, 0, 0, 0.308);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+section#foot:hover {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+section#foot a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+section#foot a:hover {
+    text-decoration: underline;
 }
